@@ -1,0 +1,24 @@
+# Start program
+
+# Find the sum of all the multiples of 3 or 5 below 1000.
+def main():
+    i = 1
+    total = 0
+
+    while i < 1000:
+        # check if there is a remainder after division by 3 or 5,
+        # if so, add to the total.
+
+        if i % 3 == 0 or i % 5 == 0:
+           total = total + i
+        #-------------------------------------------------------
+        i = i + 1
+    print "Total of multiples = " ,total
+if __name__ == '__main__':
+    main()
+
+
+
+# End program
+#time.sleep(10)
+

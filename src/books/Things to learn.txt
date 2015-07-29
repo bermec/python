@@ -1,0 +1,7 @@
+Exceptions
+List comprehension
+Classes/Inheritance
+Read/Write files
+Generators/Yield Maybe ?????
+Check out some standard library os, sys, etc
+Decorators
